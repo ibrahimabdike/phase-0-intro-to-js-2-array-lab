@@ -25,8 +25,6 @@ function destructivelyRemoveFirstCat(){
 //appends array without changing it
 function appendCat(name){
   var newArray = cats.slice();
-  // or ES6 way
-  // var newArray = [...kittens];
   newArray.push(name);
   return newArray;
 }
@@ -34,8 +32,6 @@ function appendCat(name){
 //prepends array without changing it
 function prependCat(name){
   var newArray = cats.slice();
-  // or ES6 way
-  // var newArray = [...kittens];
   newArray.unshift(name);
   return newArray;
 }
@@ -44,8 +40,6 @@ function prependCat(name){
 //removes last item without changing it
 function removeLastCat(){
   var newArray = cats.slice();
-  // or ES6 way
-  // var newArray = [...kittens];
   newArray.pop(name);
   return newArray;
 }
@@ -53,8 +47,6 @@ function removeLastCat(){
 //removes first item without changing it
 function removeFirstCat(){
   var newArray = cats.slice();
-  // or ES6 way
-  // var newArray = [...kittens];
   newArray.shift(name);
   return newArray;
 }
